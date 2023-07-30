@@ -1,0 +1,437 @@
+@import url(../font/icon/css/font-awesome.min.css);
+@import url("../font/menu.css");
+@font-face {
+    font-family: Raleway;
+    src: url('../font/Raleway/Raleway-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: ExtraLight;
+    src: url('../font/Raleway/Raleway-ExtraLight.ttf');
+}
+
+
+/*/////////////////////////////////////////////////*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: Raleway, arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.body-container {
+    width: 1519px;
+}
+
+h1,
+h2 {
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.menu-logo {
+    float: right;
+    color: #ffffff;
+    display: none;
+}
+
+.menu-logo:hover .gg-menu-motion::before {
+    box-shadow: 4px -6px 0, 8px -12px 0;
+}
+
+.menu-logo:hover {
+    color: rgb(0, 204, 255)!important;
+}
+
+.head-top {
+    padding: 30px;
+}
+
+.head-asli {
+    background-position: center center;
+    background-image: url(../img/1.jpg)!important;
+    /*/////////////////////////////////////////////////*/
+    background-size: cover;
+    /*/////////////////////////////////////////////////*/
+}
+
+.head-top-left {
+    float: left;
+    color: white;
+}
+
+.nav {
+    font-family: ExtraLight;
+    text-align: right;
+    font-size: 20px;
+    display: inline;
+}
+
+.head-item {
+    display: inline;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.nav ul li a {
+    color: rgb(206, 204, 204);
+    transition: color 0.2s ease-in-out;
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.head-down {
+    color: white;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.head-down h1 {
+    font-size: 60px;
+    line-height: 130px;
+    /*/////////////////////////////////////////////////*/
+}
+
+.head-down p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    /*/////////////////////////////////////////////////*/
+}
+
+.btn {
+    border-radius: 30px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: ExtraLight;
+}
+
+.gray-btn {
+    background-color: white!important;
+    color: rgb(146, 146, 146)!important;
+    transition: color 0.2s ease-in-out;
+}
+
+.gray-btn:hover {
+    color: rgb(0, 0, 0)!important;
+}
+
+.blue-btn {
+    background-color: rgb(0, 204, 255)!important;
+    color: white !important;
+    display: inline-block;
+    margin: 15px auto 60px auto;
+}
+
+.dark-btn {
+    background-color: rgb(54, 54, 54)!important;
+    color: white !important;
+}
+
+.big-size {
+    font-size: 20px!important;
+    padding: 17px 35px;
+}
+
+main .services {
+    text-align: center;
+    color: #000000;
+    padding: 100px .5%;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+}
+
+main .services-header h2 {
+    font-size: 42px;
+    color: #474747;
+    margin-bottom: 15px;
+}
+
+main .services-header p {
+    font-size: 22px;
+    color: #858585;
+}
+
+main .services-header {
+    margin-bottom: 50px;
+}
+
+main .services .box {
+    padding: 70px 30px;
+    /*----------------------------------------------*/
+    /* width: calc(calc(100% / 3) - 82px); */
+    /*تابع بالا محاسبه ریاضی را انجام می دهد و حاصل را به عنوان مقدار عرض قرار میدهد*/
+    /*----------------------------------------------*/
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+    background-color: white;
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .services .box h4 {
+    font-size: 20px;
+    color: #858585;
+    margin: 60px 0 30px 0;
+}
+
+main .services .box p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 80%;
+}
+
+main .services .left-icon {
+    background-color: #3cadd4;
+}
+
+main .services .center-icon {
+    background-color: #add43c;
+}
+
+main .services .right-icon {
+    background-color: #d43c61;
+}
+
+main .services .icon:before {
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+main .services .icon {
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+
+/*----------------------------------------------*/
+
+
+/* 
+.services-content:after,
+.services-content:before {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+
+/*روش حل مشکل شناور شدن توسط فلوت*/
+
+
+/*----------------------------------------------*/
+
+.services-content {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-header h2 {
+    font-size: 42px;
+    color: #474747;
+    margin-bottom: 15px;
+}
+
+.about-header p {
+    font-size: 22px;
+    color: #858585;
+}
+
+.content-container {
+    margin: 60px auto;
+    width: 100%;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.prof-img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.profile {
+    width: 100%;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.about-content p {
+    line-height: 25px;
+}
+
+.about-content h4 {
+    margin-top: 20px;
+}
+
+.kh {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about-footer .kh button {
+    margin-top: 40px;
+}
+
+.about-footer {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.contact {
+    background-color: #3cadd4;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.contact .contact-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact .contact-header h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact .contact-header p {
+    font-size: 20px;
+}
+
+.contact .contact-content textarea,
+.contact .contact-content input {
+    border: none;
+    padding: 15px 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #444;
+    width: 25%;
+}
+
+.contact .contact-content {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.contact .contact-content textarea {
+    background-color: #fff;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 15px 25px;
+    width: 50%;
+    height: 200px;
+}
+
+.contact .contact-content button {
+    margin: 10px;
+}
+
+::selection {
+    background-color: rgb(226, 226, 226);
+    color: #444;
+}
+
+::placeholder {
+    color: #858585!important;
+    font-size: 15px;
+    font-family: Raleway;
+}
+
+footer {
+    padding: 100px 0;
+    font-size: 10px;
+    background-color: #383b43;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+}

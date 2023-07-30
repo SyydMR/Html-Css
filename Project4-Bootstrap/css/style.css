@@ -1,0 +1,46 @@
+@import url("../font/menu.css");
+@font-face {
+    src: url("../font/Vazir.ttf");
+    font-family: vazir;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+}
+
+.burger-btn {
+    background-color: #fff;
+}
+
+.menu-logo {
+    cursor: pointer;
+    color: #000;
+}
+
+.menu-logo:hover .gg-menu-motion::before {
+    box-shadow: 4px -6px 0, 8px -12px 0;
+}
+
+.menu-logo:hover {
+    background-color: #fff
+}
+
+.box-1 {
+    transform: translateY(-40px);
+}
+
+.box-3 {
+    transform: translateY(-40px);
+}
+
+@media screen and (max-width: 768px) {
+    .box-1 {
+        transform: translateY(0);
+    }
+    .box-3 {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgb(67, 0, 88);
+    background: linear-gradient(90deg, rgba(67, 0, 88, 1) 0%, rgba(233, 88, 58, 1) 100%);
+}
+
+.header .container {
+    width: 90%;
+}
+
+.btn-log {
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-log:hover {
+    color: #cecece9c!important;
+}
+
+.first-section {
+    background-color: rgb(255, 187, 0);
+    height: 300px;
+}
+
+.section-logos {
+    color: rgb(16, 112, 255);
+}
+
+.btn-subscribe {
+    color: rgb(16, 112, 255);
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s;
+}
+
+footer .container .row {
+    height: 200px;
+}
+
+.navbar-collapse {
+    height: 200px;
+}

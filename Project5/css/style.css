@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: rgb(255, 38, 0);
+    --blue: rgb(23, 0, 151);
+    --yellow: rgb(251, 255, 29);
+    --gray: rgb(238, 238, 238);
+    --black: rgb(0, 0, 0);
+}
+
+.head-logo {
+    width: 200px;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.submit-search {
+    color: #fff;
+    background-color: var(--orange);
+}
+
+.search-box {
+    border: .5px solid rgba(255, 38, 0, 0.404);
+    outline: none;
+}
+
+.submit-search:focus {
+    color: #fff;
+    background-color: var(--blue);
+}
+
+.submit-search:hover {
+    color: #fff;
+    background-color: var(--blue);
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky!important;
+    top: 0;
+}
+
+.btn-outline-blue {
+    border: 1px solid var(--blue)!important;
+}
+
+.btn-outline-blue:hover {
+    border: 1px solid var(--blue)!important;
+    color: white;
+    background-color: var(--blue)
+}
+
+.btn-outline-orange {
+    border: 1px solid var(--orange)!important;
+}
+
+.btn-outline-orange:hover {
+    border: 1px solid var(--orange)!important;
+    color: white;
+    background-color: var(--orange)
+}
+
+.btn {
+    outline: none;
+    border: none;
+}
+
+.sign-in {
+    background-color: var(--blue);
+}
+
+.sign-in:hover {
+    background-color: rgb(19, 0, 126);
+    color: var(--gray);
+}
+
+.log-in,
+.sign-in {
+    transition: all 0.5s;
+}
+
+.log-in:hover {
+    color: var(--black)!important;
+}
+
+.second-head {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 38, 0, 1) 100%);
+}
+
+.main-box {
+    background: rgb(23, 0, 151);
+    background: linear-gradient(180deg, rgba(23, 0, 151, 1) 0%, rgba(255, 255, 255, 0.12997347480106103) 100%);
+}
+
+.box-field {
+    box-shadow: 2px 2px 10px rgba(4, 0, 44, 0.596);
+}

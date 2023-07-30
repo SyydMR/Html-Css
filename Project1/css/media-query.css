@@ -1,0 +1,99 @@
+@media screen and (max-width: 1000px) {
+    main .services .box {
+        padding: 0 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        /*----------------------------------------------*/
+        /* width: calc(calc(100% / 3) - 82px); */
+        /*تابع بالا محاسبه ریاضی را انجام می دهد و حاصل را به عنوان مقدار عرض قرار میدهد*/
+        /*----------------------------------------------*/
+        border: 1px solid rgba(144, 144, 144, 0.25);
+        border-radius: 4px;
+        background-color: white;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-container {
+        margin: 60px auto;
+        width: 100%;
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .about-content {
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .head-down h1 {
+        font-size: 40px;
+        line-height: 130px;
+        /*/////////////////////////////////////////////////*/
+    }
+    .head-down p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .btn {
+        padding: 8px 15px;
+    }
+    .nav {
+        display: none;
+    }
+    .menu-logo {
+        display: inline-block;
+    }
+    .head-down {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .head-down h1 {
+        font-size: 30px;
+        line-height: 130px;
+        /*/////////////////////////////////////////////////*/
+    }
+    .head-down p {
+        font-size: 11px;
+        margin-bottom: 50px;
+    }
+    .blue-btn {
+        padding: 7px 13px;
+        font-size: 11px!important;
+    }
+    .head-down {
+        color: white;
+        padding: 70px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .about-content {
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}

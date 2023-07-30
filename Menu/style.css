@@ -1,0 +1,26 @@
+li {
+    display: inline-block;
+    background-color: rgb(37, 37, 68);
+    padding: 1.7vw 2.5vw;
+    color: rgb(231, 231, 231);
+    transition: background-color 1s, color 1s, box-shadow 1s;
+}
+
+ul {
+    list-style: none;
+    margin: 2vw 0;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.iconstyle {
+    font-size: 1vw;
+    margin-right: 0.3vw;
+}
+
+li:hover {
+    background-color: rgb(236, 236, 0);
+    color: rgb(37, 37, 68);
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(78, 83, 0);
+}

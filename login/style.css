@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'HussarBoldWebEdition';
+    src: url("HussarBoldWebEdition-xq5O.otf");
+}
+
+body {
+    font-family: 'HussarBoldWebEdition';
+    background: linear-gradient(90deg, rgb(132, 185, 255) 0%, rgb(41, 141, 255) 100%);
+}
+
+.formlogin {
+    background-color: white;
+    border-radius: 21px;
+    width: 300px;
+    height: 330px;
+    color: rgb(90, 90, 90);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.329);
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.textlogin {
+    color: rgb(90, 90, 90);
+}
+
+span {
+    color: rgb(62, 130, 255);
+}
+
+input {
+    display: block;
+    width: 85%;
+    padding: 10px 5px;
+    border: none;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(62, 130, 255);
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    background-color: rgba(203, 231, 255, 0.137);
+    border-bottom: 2px solid rgb(183, 217, 255);
+    transition: all 1s linear 0s;
+    margin: 20px auto;
+}
+
+input[type=submit] {
+    font-family: 'HussarBoldWebEdition';
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background: rgb(132, 152, 255);
+    background: linear-gradient(90deg, rgb(57, 143, 255) 0%, rgb(97, 171, 255) 100%);
+}
+
+.textForget {
+    margin: 14px auto 4px auto;
+    font-size: 0.9em;
+    color: rgb(112, 112, 112);
+}
+
+input[type=submit]:hover {
+    background: rgb(132, 152, 255);
+    background: linear-gradient(90deg, rgb(0, 110, 255) 0%, rgb(18, 128, 255) 100%);
+    cursor: pointer;
+}
+
+.active:hover {
+    background-color: rgba(0, 183, 255, 0.219);
+}
+
+input[type=submit]:active {
+    background: rgb(2, 0, 122);
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=password]:hover {
+    border: none;
+    border-bottom: 2px solid rgb(0, 89, 255);
+}

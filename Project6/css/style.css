@@ -1,0 +1,495 @@
+@font-face {
+    font-family: 'b koodak';
+    src: url("../font/BKoodakBold.eot") format('eot'), /* IE6–8 */
+    url('../font/BKoodakBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url("../font/BKoodakBold.ttf") format('ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer!important;
+}
+
+
+/* sticky navbar */
+
+.sticky-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: white;
+}
+
+
+/* --------------- */
+
+.navbar-container {
+    width: 100%;
+    max-width: 1600px;
+}
+
+
+/* header */
+
+.header-img {
+    background-image: url("../img/header-img.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    font-size: 1.5vw;
+}
+
+.bi-caret-down-fill {
+    position: absolute;
+    left: -17px;
+    bottom: 3px;
+}
+
+.header-dropdown {
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: 'b koodak';
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-logo {
+    position: absolute;
+    z-index: 1000;
+    right: 25px;
+    top: 13px;
+}
+
+.search-form {
+    background-color: #f0f0f1;
+}
+
+.locaion-navbar {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* box logo */
+
+.box-logo {
+    width: 80px;
+}
+
+.title-boxes {
+    width: 100%;
+}
+
+.box-text {
+    margin-top: 7px;
+}
+
+
+/* discount list */
+
+.dis-list {
+    background-color: #ef4056;
+    overflow-x: scroll;
+}
+
+.card-img-top {
+    width: 100%;
+    border-radius: 0;
+}
+
+.discount-card-right {
+    background-color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    min-width: 200px!important;
+    padding: 10px;
+}
+
+.discount-card-center {
+    background-color: white;
+    border-radius: 0;
+    border-right: 1px solid #ef4056;
+    min-width: 200px!important;
+    padding: 10px;
+}
+
+.discount-card-left {
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: 1px solid #ef4056;
+    min-width: 200px!important;
+    padding: 10px;
+}
+
+.card-caption {
+    padding: 10px 0;
+}
+
+.caption-discount-number {
+    margin-bottom: 0;
+}
+
+.caption-discount-box {
+    background-color: #ef4056;
+    border: 4px;
+    padding: 0 7px;
+    border-radius: 10px;
+    color: white;
+    bottom: 12px;
+}
+
+
+/* ------------------- */
+
+
+/*  */
+
+.background-offer-img {
+    background-image: url("../img/sky-img.png");
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.more-text-offer {
+    background-color: white;
+    color: rgb(70, 150, 60);
+    font-size: 17px;
+}
+
+.o-r-offer {
+    background-color: rgb(70, 150, 60);
+    color: white;
+}
+
+.o-r-text {
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(70, 150, 60);
+}
+
+
+/* ----------------------- */
+
+.suggested-box {
+    background-image: url("../img/sky-img.png");
+    position: relative;
+    background-position: left center;
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+}
+
+.ads-card {
+    right: 30px;
+    bottom: 40px;
+    font-size: 17px;
+}
+
+.ads-logo {
+    left: 3px;
+    bottom: 40px;
+}
+
+.ads-logo-2 {
+    left: 50px;
+    bottom: 20px;
+}
+
+.ads-card-2 {
+    right: 30px;
+    bottom: 50px;
+    font-size: 19px;
+}
+
+
+/* ------------------- */
+
+.recommended-items-box {
+    overflow-x: scroll;
+}
+
+.recommended-img-top {
+    width: 90px;
+    margin: 5px 50px;
+}
+
+.recommended-img-bottom {
+    width: 90px;
+    margin: 5px 50px;
+}
+
+.recommended-img {
+    width: 90px;
+    margin: 0 30px;
+}
+
+.recommended-img-2 {
+    width: 100px;
+}
+
+.left-border-class {
+    border-left: 1px solid rgb(231, 231, 231);
+}
+
+.discount-border-bottom {
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.discount-border-bottom-2 {
+    border-bottom: none;
+}
+
+.discount-border-left {
+    border-left: 1px solid rgb(231, 231, 231);
+}
+
+.discount-pics-border {
+    border: 1px solid rgb(231, 231, 231);
+}
+
+
+/* ------------------------- */
+
+.digi-plus {
+    background-color: rgb(141, 10, 113);
+}
+
+.plus-right-content {
+    color: white;
+}
+
+.digi-plus-right {
+    height: 100%;
+}
+
+.digi-plus-center {
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+.digi-plus-left {
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    margin-right: 2.5px;
+}
+
+.see-more-center {
+    color: rgb(141, 10, 113);
+}
+
+.prize {
+    right: -10px;
+    bottom: -15px;
+    font-size: 14px;
+}
+
+
+/* ----------------*/
+
+.background-offer-img-2 {
+    height: 100px;
+    width: 100%;
+    font-size: 12px;
+    padding: 13px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(0, 176, 230) 0%, rgb(0, 115, 150) 100%);
+}
+
+.digiclub-field {
+    padding: 2px;
+    padding-right: 20px;
+}
+
+.digiclub-right-radius {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.digiclub-left-radius {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.digiclub-left-radius-img {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.digiclub-img {
+    width: 105px;
+    height: 100%;
+}
+
+.digiclub-text {
+    margin: 0 5px 0 25px;
+}
+
+
+/* ----------------------------- */
+
+.num-best-selling {
+    font-weight: 800;
+    color: rgb(85, 191, 233);
+    font-size: 30px;
+    margin: 0 5px 0 7px;
+}
+
+.img-best-selling {
+    width: 100px;
+}
+
+.text-best-selling {
+    font-size: 12px;
+}
+
+.best-selling-items {
+    overflow-x: scroll;
+}
+
+.triple-items {
+    min-width: 270px;
+}
+
+
+/* --------------- */
+
+.background-offer-img-3 {
+    height: 10vw;
+    max-height: 200px;
+    width: 100%;
+    font-size: 12px;
+    padding: 1vw;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(206, 112, 193) 0%, rgb(226, 77, 206) 100%);
+}
+
+.offer-right-2 {
+    line-height: 1vw;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.buy-btn {
+    font-size: 20px;
+    padding: .1vw 1.5vw;
+}
+
+.offer-left-img {
+    width: 9vw;
+    max-width: 140px;
+}
+
+
+/* ----------------------- */
+
+.discount-card-right-2 {
+    background-color: white;
+    width: 210px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.selected-border-1 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-2 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-3 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-4 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-5 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-6 {
+    border-bottom: .5px solid #ebebeb;
+}
+
+.selected-border-7 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-8 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-9 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-10 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-11 {
+    border-bottom: .5px solid #ebebeb;
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-12 {
+    border-bottom: .5px solid #ebebeb;
+}
+
+.selected-border-13 {
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-14 {
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-15 {
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-16 {
+    border-left: .5px solid #ebebeb;
+}
+
+.selected-border-17 {
+    border-left: .5px solid #ebebeb;
+}
